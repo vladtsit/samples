@@ -1,0 +1,13 @@
+        {
+            "accessory": "mqttthing",
+            "type": "windowCovering",
+            "name": "Lib Blinds",
+            "url": "192.168.2.5",
+            "topics": {
+                "getCurrentPosition": "mqttthing/lib_blinds/getposition",
+                "setTargetPosition": "mqttthing/lib_blinds/settargetposition",
+                "getTargetPosition": "mqttthing/lib_blinds/gettargetposition",
+                "getPositionState": "mqttthing/lib_blinds/getpositionstate",
+                "setHoldPosition": "mqttthing/lib_blinds/hold"
+            }
+        }
